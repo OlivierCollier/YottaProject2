@@ -21,7 +21,7 @@ if __name__ == "__main__":
     logging.info("\n==========\nLOAD MODEL\n==========\n")
 
     model = tf.keras.models.load_model(
-        os.path.join(config.MODEL_DIR, config.FINAL_MODEL_NAME)
+        os.path.join(config.MODEL_DIR, config.TRAINED_MODEL_FILENAME)
     )
 
     logging.info("\n================\nMAKE PREDICTIONS\n================\n")
