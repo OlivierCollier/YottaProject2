@@ -13,7 +13,7 @@ import src.config.config as config
 # Projet n°2 - Project City Recognition
 """
 
-model = tf.keras.models.load_model(os.path.join(config.MODEL_DIR, "PCR_model.hdf5"))
+model = tf.keras.models.load_model(os.path.join(config.MODEL_DIR, TRAINED_MODEL_FILENAME))
 st.write(
     """Bienvenue dans notre modèle de prédiction de ville à partir d'une photo !
  Le principe est simple : insérez une photo de façade de bâtiment, et le modèle
