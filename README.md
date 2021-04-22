@@ -64,7 +64,7 @@ poetry run python src/application/train.py
 
 5. **Make predictions from the model**
 
-To test our final model (not the one trained above, but the one we selected), run the following command from the repository root:
+To test our final model (unfortunately, our final model does not fit on GitHub, so before that, you have to train your own using the instructions above...), run the following command from the repository root:
 
 ```
 poetry run python src/application/predict.py
@@ -73,7 +73,7 @@ poetry run python src/application/predict.py
 
 6. **Test our web-app!**
 
-To access our web-app and interactively use your own pictures, run the following command from the repository root:
+To access our web-app and interactively use your own pictures, run the following command from the repository root: (unfortunately, our final model does not fit on GitHub, so before that, you have to train your own using the instructions above...)
 
 ```
 streamlit run src/application/application.py
